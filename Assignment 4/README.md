@@ -1,0 +1,9 @@
+# Sharmada Iyer - Assignment 4 - Python Programming - Dr. Oge Marques - Summer 2021
+
+This assignment really helped me understand the importance of lists.
+
+For option 1, I perceived the requirements similar to an SQL query. The only difference is, instead of querying for the results, I had to enter in the respective values. Option 1 asks the user to input the min and max MPG values of their choice and return the results. Since I only needed three values out of the whole CSV, I created a function that extracted only those three values and returned them. Then I made a function that only extracted the car makes and models from the list made from the previous function and printed them out
+
+I needed to install pylab for Option 2 in order to plot a trend. Once done i had the user input whether they would like a City, Highway, or overall MPG. Based on their selection, I got all the respective X and Y coordinates. The X coordinate remains the same with all inputs (Year). The Y coordinate changes depending on the user input. The information is then plot with the respective title and Y coordinate label. The user is then asked at the end whether they would like the trend to be displayed or saved as file. Displaying will open another application in which the trend will display. If not the plot will be saved as an image. The image file adds trends if the user decides to plot another trend. The program loops so that if the user can decide they would like to plot another trend, they will have the option to do so.
+
+All special cases are taken into account. Error messages are printed where neccessary. If the user enters an invalid input for the main loop or the option 2 loop, the user is asked to try again until they enter the correct information. There is also an option to quit the program in case the user does not want to proceed to begin with or if they would like to quit at the end of each trial. 
